@@ -41,8 +41,8 @@ class AyushSaxena:
         self.role          = "AI Engineer & Full Stack Developer"
         self.education     = "B.Tech CSE, SRM Institute of Science and Technology"
         self.focus         = ["Multi-Agent Systems", "LangGraph Workflows", "LLM Applications"]
-        self.stack          = ["FastAPI", "React", "TypeScript", "Python", "LangGraph"]
-        self.currently_building = ["ResumeForge AI", "Research-AI", "Analytics-AI"]
+        self.stack         = ["FastAPI", "React", "TypeScript", "Python", "LangGraph"]
+        self.shipped       = ["ResumeForge AI", "Research-AI", "Analytics-AI"]
 
     def philosophy(self):
         return "Ship real products, not just notebooks."
@@ -82,10 +82,9 @@ class AyushSaxena:
 <td width="33%" valign="top">
 
 **🧠 ResumeForge AI**
-End-to-end AI resume reconstruction platform with ATS scoring & LLM-powered rewriting.
-<br/><sub>FastAPI · React · TypeScript · LangGraph</sub>
-<!-- TODO: confirm/insert final GitHub link for ResumeForge AI -->
-<br/>[`Repository`](https://github.com/Ayush-0103)
+Production-grade AI resume optimization platform with ATS scoring, LangGraph multi-agent pipeline, cover letter generation, interview prep & export.
+<br/><sub>FastAPI · Next.js · TypeScript · LangGraph · PostgreSQL · Ollama</sub>
+<br/>[`Repository`](https://github.com/Ayush-0103/ResumeForge-AI) · <img src="https://img.shields.io/badge/Status-Live-22D3EE?style=flat-square"/>
 
 </td>
 <td width="33%" valign="top">
@@ -180,12 +179,19 @@ Personal portfolio with a clean, product-grade UI showcasing projects, certifica
 <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Google%20Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white"/>
 <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white"/>
+<img src="https://img.shields.io/badge/Ollama-FF6B35?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Anthropic-191919?style=for-the-badge"/>
 </td></tr>
 <tr><td><b>Data & ML</b></td><td>
 <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
 <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
 <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"/>
 <img src="https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white"/>
+</td></tr>
+<tr><td><b>Databases</b></td><td>
+<img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white"/>
+<img src="https://img.shields.io/badge/ChromaDB-FF6B35?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge"/>
 </td></tr>
 <tr><td><b>Tools & Automation</b></td><td>
 <img src="https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white"/>
@@ -239,23 +245,33 @@ Personal portfolio with a clean, product-grade UI showcasing projects, certifica
 <img src="https://placehold.co/1000x420/0d1117/8b5cf6?text=ResumeForge+AI&font=montserrat" width="100%"/>
 </div>
 
-### 🚀 ResumeForge AI <sub>— Flagship Project</sub>
+### 🚀 ResumeForge AI <sub>— Flagship Project · Live</sub>
 
-End-to-end AI resume reconstruction platform: ATS-compatibility analysis, LLM-driven content optimization, and a live interactive resume editor, orchestrated through a LangGraph multi-agent workflow.
+Production-grade AI resume optimization platform. Upload your resume + a job description — a LangGraph multi-agent pipeline rewrites every section, generates a cover letter, produces interview questions, builds a skill roadmap, and exports the result as PDF or DOCX. ATS score jumps from ~55 → ~91. Works 100% offline via Ollama (no API key needed), or connects to OpenAI, Anthropic, Gemini, or Groq.
+
+**What's inside:**
+- 🤖 LangGraph multi-agent workflow (8 specialized nodes)
+- 📊 ATS scoring engine with keyword & skill gap analysis
+- ✉️ Cover letter + LinkedIn + interview prep generation
+- 🗺 30/60/90 day skill roadmap
+- 📄 PDF & DOCX export via WeasyPrint + python-docx
+- 🔐 JWT auth + PostgreSQL + ChromaDB vector search
+- 🌐 Next.js 14 dark-mode UI with real-time progress tracking
+- 🔌 6 AI providers: Ollama · OpenAI · Anthropic · Gemini · Groq · OpenRouter
 
 <p>
 <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
-<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
+<img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white"/>
 <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
 <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/LLM-412991?style=for-the-badge&logo=openai&logoColor=white"/>
-<img src="https://img.shields.io/badge/Status-In%20Development-orange?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white"/>
+<img src="https://img.shields.io/badge/Ollama-FF6B35?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Status-Live-22D3EE?style=for-the-badge"/>
 </p>
 
-<!-- TODO: confirm/insert final GitHub + live demo link for ResumeForge AI -->
 <p>
-<a href="https://github.com/Ayush-0103"><img src="https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/Live%20Demo-Coming%20Soon-555555?style=for-the-badge&logo=vercel&logoColor=white"/>
+<a href="https://github.com/Ayush-0103/ResumeForge-AI"><img src="https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
+<img src="https://img.shields.io/badge/Runs-Locally%20%7C%20Self%20Hosted-8B5CF6?style=for-the-badge&logo=vercel&logoColor=white"/>
 </p>
 
 </td>
@@ -281,7 +297,7 @@ Multi-agent AI research assistant that plans, searches, fact-checks and generate
 <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white"/>
 <img src="https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white"/>
 <br/>
-<img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Status-Live-22D3EE?style=for-the-badge"/>
 </p>
 
 <p>
@@ -305,7 +321,7 @@ AI-powered Excel analytics platform — automated data analysis, KPI generation,
 <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/>
 <br/>
-<img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Status-Live-22D3EE?style=for-the-badge"/>
 </p>
 
 <p>
@@ -320,7 +336,6 @@ AI-powered Excel analytics platform — automated data analysis, KPI generation,
 
 ## Coding Profiles
 
-<!-- Replace href="#" with your actual profile links -->
 <p align="center">
 <a href="#"><img src="https://img.shields.io/badge/LeetCode-Add%20Profile-FFA116?style=for-the-badge&logo=leetcode&logoColor=white"/></a>
 <a href="#"><img src="https://img.shields.io/badge/CodeChef-Add%20Profile-5B4638?style=for-the-badge&logo=codechef&logoColor=white"/></a>
@@ -351,7 +366,7 @@ AI-powered Excel analytics platform — automated data analysis, KPI generation,
 **Recognition & Shipping**
 - GitHub Pull Shark achievement
 - Top Achiever — First Year B.Tech CSE
-- Shipped multiple production AI applications (Analytics-AI, Research-AI)
+- Shipped multiple production AI applications
 - Founder — EasyOps Studio
 
 </td></tr>
